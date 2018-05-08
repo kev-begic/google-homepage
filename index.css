@@ -1,3 +1,106 @@
-body {
-
+* {
+	text-decoration: none;
 }
+
+body {
+	font-size: small;
+	font-family: arial, sans-serif;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+center {
+	display: block;
+	text-align: -webkit-center;
+}
+
+div {
+	display: block;
+}
+
+form {
+	display: block;
+	margin-top: 0em;
+}
+
+span {
+	color: #ff0000;
+}
+
+a {
+	color: #la0dab;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#main {
+	display: block;
+	margin-top: 150px;
+	margin-bottom: 100px;
+	background: #fff
+}
+
+#logo {
+	height: 95px;
+	width: 270px;
+	margin-bottom: 10px;
+}
+
+#bar {
+	text-align: center;
+}
+
+
+#searchbar {
+	display: inline-block;
+	position: relative;
+	margin-top: 20px;
+	height: 35px;
+	width: 575px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #BEBEBE #DBDBDB #DBDBDB #BEBEBE;
+	box-shadow: 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+
+#microphone {
+	margin: 5px 5px 5px auto;
+	height: 28px;
+	position: relative;
+	display: inline-block;
+	float: right;
+	right: 92px;
+	top: 20px;
+}
+
+#buttons {
+	text-align: center;
+	margin-top: 20px;
+}
+
+#knowit:hover, #lucky:hover {
+	color: #222;
+	border: 1px solid #f2f2f2;
+	box-shadow: 1px 1px 5px #c5c5c5; 
+}
+
+#promo {
+	margin: 20px 30px;
+}
+
+.button {
+	margin: 5px 8px;
+	height: 35px;
+	font-size: 13px;
+	color: #757575;
+	font-weight: bold;
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+	padding: 0 15px;
+}
+

@@ -3,32 +3,42 @@
 <html>
 
 <head>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="index.css" type="text/css">
+	<meta charset="utf-8">
 	<title>Google</title>
 </head>
 
 <body>
+	<center>
+	<!-- Main elements (Logo, Search Form, Buttons) -->
+	<div class="content" id="main">
+		<!-- Logo -->
+		<img id="logo" alt="Google" src="logo.png">
 
-	<div class="logo">
-		<img src="googlelogo_color_272x92dp.png" alt="Google Logo">
-	</div>
+		<form action="#" method="post">
 
-	<br>
-
-	<div class="searchbar">
-		<form action="#">
-			<input type="text" name="search"><br>
-			<div class="google_search">
-				<button type="submit">Google Search</button>
+			<!-- Search Bar -->
+			<div id="bar">
+				<input id="searchbar" type="text" name="search_form"> 
+				<img id="microphone" src="microphone.png">
 			</div>
-			<div class="feeling_lucky">
-				<button type="submit">I'm Feeling Lucky</button>
+
+			<!-- Buttons -->
+			<div id="buttons">
+				<input class="button" type="submit" value="Google Search" id="knowit">
+				<input class="button" type="submit" value="I'm Feeling Lucky" id="lucky">
 			</div>
 		</form>
+
+		<!-- Promotion -->
+		<div id="promo">
+			<p>
+				<span>New! </span>
+				<a href="https://github.com/kev-begic">The Odin Project Introduces Kevin's GitHub Repository</a>
+			</p>
+		</div>
 	</div>
-
-
-
+	</center>
 </body>
 
 </html>
