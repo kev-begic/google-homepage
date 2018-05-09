@@ -52,15 +52,24 @@ a:hover {
 
 #bar {
 	text-align: center;
+
 }
 
+.searchform {
+	border: none;
+	outline: none;
+	box-shadow: none;
+	position: relative;
+	right: 10px;
+	width: 93%;
+}
 
-#searchbar {
+input, #searchbar {
 	display: inline-block;
 	position: relative;
-	margin-top: 20px;
+	margin-top: 0px;
 	height: 35px;
-	width: 575px;
+	width: 90%;
 	border-style: solid;
 	border-width: 1px;
 	border-color: #BEBEBE #DBDBDB #DBDBDB #BEBEBE;
@@ -71,10 +80,8 @@ a:hover {
 	margin: 5px 5px 5px auto;
 	height: 28px;
 	position: relative;
-	display: inline-block;
-	float: right;
-	right: 92px;
-	top: 20px;
+	display: block;
+	top: -36px;
 }
 
 #buttons {
@@ -94,13 +101,38 @@ a:hover {
 
 .button {
 	margin: 5px 8px;
+	padding: 0 15px;
 	height: 35px;
-	font-size: 13px;
+	width: 140px;
+	font-size: 150x;
 	color: #757575;
 	font-weight: bold;
 	background-color: #f2f2f2;
 	border: 1px solid #f2f2f2;
 	border-radius: 2px;
-	padding: 0 15px;
 }
 
+/* Navigation Bars */
+#header {
+	color: black;
+	top: 0px;
+	margin: 0;
+	margin-bottom: 1px;
+	position: relative;
+	width: 100%;
+}
+
+#header a{
+	color: black;
+}
+
+.leftheader {
+	margin: 15px 0px 0px 15px;
+	display: inline-block;
+
+}
+
+.leftheader a {
+	padding-left: 10px;
+	padding-right: 10px;
+}
